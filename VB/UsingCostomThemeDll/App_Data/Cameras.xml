@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Groups>
+	<Group Text="Home" Url="">
+		<Item NavigateUrl="html/templatedata/AboutCanon/ciwabcn.html" Text="About Company"/>
+	</Group>
+	<Group Text="Digital Cameras">
+		<Item NavigateUrl="consumer/controller?act=ModelInfoAct&amp;fcategoryid=139&amp;modelid=15710" Text="EOS-1Ds Mark III" ImageUrl="http://www.usa.canon.com/app/images/eos/EOS_1Ds_MarkIII/1dsmk3_68x68.gif"/>
+		<Item NavigateUrl="consumer/controller?act=ModelInfoAct&amp;fcategoryid=139&amp;modelid=14999" Text="EOS-1D Mark III" ImageUrl="http://www.usa.canon.com/app/images/eos/EOS_1D_MarkIII/1dmark3_68x68.gif"/>
+	</Group>
+	<Group Text="Support">
+		<Item NavigateUrl="opd/controller?act=OPDDownloadDropDownAct" Text="Drivers &amp; Downloads"/>
+		<Item NavigateUrl="opd/controller?act=OPDGetServiceAct" Text="Get Service"/>
+	</Group>
+</Groups>

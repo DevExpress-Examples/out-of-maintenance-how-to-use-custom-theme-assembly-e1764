@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyThemeAssembly", "MyThemeAssembly\MyThemeAssembly.csproj", "{207A3CB0-0AFE-4398-9B39-B21DB3E59653}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\UsingCostomThemeDll\", "UsingCostomThemeDll\", "{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{207A3CB0-0AFE-4398-9B39-B21DB3E59653}|MyThemeAssembly.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/UsingCostomThemeDll"
+		Debug.AspNetCompiler.PhysicalPath = "UsingCostomThemeDll\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UsingCostomThemeDll\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UsingCostomThemeDll"
+		Release.AspNetCompiler.PhysicalPath = "UsingCostomThemeDll\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UsingCostomThemeDll\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53579"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Release|.NET.ActiveCfg = Release|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{207A3CB0-0AFE-4398-9B39-B21DB3E59653}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Debug|.NET.ActiveCfg = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Debug|.NET.Build.0 = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Release|.NET.ActiveCfg = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Release|.NET.Build.0 = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{999F2FF1-CACC-47FB-B5FB-A88D32E988A8}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
