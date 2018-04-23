@@ -1,0 +1,12 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v10.2, Version=10.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxnb" Namespace="DevExpress.Web.ASPxNavBar" Assembly="DevExpress.Web.v10.2, Version=10.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxnb:ASPxNavBar runat="server" CssPostfix="MyVioletTheme" CssFilePath="~/App_Themes/MyVioletTheme/styles.css" 
+    ImageFolder="~/App_Themes/MyVioletTheme/" GroupSpacing="10px">
+    <ItemStyle ImageSpacing="10px" />
+    <GroupContentStyle ItemSpacing="1px" />
+    <LoadingPanelImage Url="nbLoading.gif" />
+    <CollapseImage Url="nbCollapse.png" Width="17px" Height="17px" />
+    <ExpandImage Url="nbExpand.png" Width="17px" Height="17px" />
+</dxnb:ASPxNavBar>
+
